@@ -12,16 +12,61 @@ import {
 import React, { useState } from "react";
 
 const mockData = [
-  { serviceName: "Service #1", serviCategory: "Category" , type:"Example Type" , duration:"40 hours" },
-  { serviceName: "Service #2", serviCategory: "Category" , type:"Example Type" , duration:"40 hours" },
-  { serviceName: "Service #3", serviCategory: "Category" , type:"Example Type" , duration:"40 hours" },
-  { serviceName: "Service #4", serviCategory: "Category" , type:"Example Type" , duration:"40 hours" },
-  { serviceName: "Service #5", serviCategory: "Category" , type:"Example Type" , duration:"40 hours" },
-  { serviceName: "Service #6", serviCategory: "Category" , type:"Example Type" , duration:"40 hours" },
-  { serviceName: "Service #7", serviCategory: "Category" , type:"Example Type" , duration:"40 hours" },
-  { serviceName: "Service #8", serviCategory: "Category" , type:"Example Type" , duration:"40 hours" },
-  { serviceName: "Service #9", serviCategory: "Category" , type:"Example Type" , duration:"40 hours" },
-]
+  {
+    serviceName: "Service #1",
+    serviCategory: "Category",
+    type: "Example Type",
+    duration: "40 hours",
+  },
+  {
+    serviceName: "Service #2",
+    serviCategory: "Category",
+    type: "Example Type",
+    duration: "40 hours",
+  },
+  {
+    serviceName: "Service #3",
+    serviCategory: "Category",
+    type: "Example Type",
+    duration: "40 hours",
+  },
+  {
+    serviceName: "Service #4",
+    serviCategory: "Category",
+    type: "Example Type",
+    duration: "40 hours",
+  },
+  {
+    serviceName: "Service #5",
+    serviCategory: "Category",
+    type: "Example Type",
+    duration: "40 hours",
+  },
+  {
+    serviceName: "Service #6",
+    serviCategory: "Category",
+    type: "Example Type",
+    duration: "40 hours",
+  },
+  {
+    serviceName: "Service #7",
+    serviCategory: "Category",
+    type: "Example Type",
+    duration: "40 hours",
+  },
+  {
+    serviceName: "Service #8",
+    serviCategory: "Category",
+    type: "Example Type",
+    duration: "40 hours",
+  },
+  {
+    serviceName: "Service #9",
+    serviCategory: "Category",
+    type: "Example Type",
+    duration: "40 hours",
+  },
+];
 const mockHeader = [
   "Service Name",
   " Service Category",
